@@ -567,3 +567,22 @@ nav{
   font-weight: 600;
   font-family: "Poppins";
 }
+
+.order-card{
+  background: var(--main-color-3);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.order-produk{
+  margin: 2rem 0;
+}
+
+.order-produk h1{
+  font-size: 1.3rem;
+}
+
+.order-produk p{
+  color: var(--text-color);
+  font-size: 1rem;
+}

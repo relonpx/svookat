@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer2() {
   return (
     <>
-    <div className='footer2'>
+    <div className='footer2' style={{marginTop: '4rem'}}>
       <div className="container-2 flex ai-center jc-sb" style={{paddingTop: '3rem', paddingBottom: '3rem'}}>
         <div className="l-footer">
           <h2 className="heading">SVOOKAT.</h2>
