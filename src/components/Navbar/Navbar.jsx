@@ -15,13 +15,13 @@ export default function Navbar() {
           </div>
           <div className="menu">
             <div className="menus">
-              <a href="" className="shape">
+              <a href="/" className="shape">
                 <i className="fa-solid fa-house"></i>
               </a>
-              <a href="" className="shape">
+              <a href="/checkout" className="shape">
                 <i className="fa-solid fa-cart-shopping"></i>
               </a>
-              <a href="" className="shape">
+              <a href="/order" className="shape">
                 <i className="fa-solid fa-bag-shopping"></i>
               </a>
             </div>

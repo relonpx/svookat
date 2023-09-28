@@ -570,7 +570,14 @@ nav{
 
 .order-card{
   background: var(--main-color-3);
-  padding: 2rem;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.orders-card{
+  padding: 1rem 3rem;
+  background: var(--main-color-1);
+  margin: 1rem 0;
   border-radius: 10px;
 }
 
@@ -580,9 +587,52 @@ nav{
 
 .order-produk h1{
   font-size: 1.3rem;
+  color: var(--main-color-3);
 }
 
 .order-produk p{
   color: var(--text-color);
   font-size: 1rem;
+  font-weight: 600;
+  color: var(--main-color-3);
+}
+
+.order-produk-r{
+  margin-right: 5rem;
+}
+
+.produk-r .heading{
+  color: var(--main-color-3);
+  font-size: 1.3rem;
+}
+
+.jasa-l h1{
+  font-size: 1.3rem;
+}
+
+.jasa-l h2{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.jasa-l p{
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.order-card h2{
+  font-size: 1.3rem;
+  border-top: 2px solid var(--main-color-1);
+  padding: 2rem 0 1rem 0;
+}
+
+.pengiriman{
+  padding: 3rem 3rem;
+  border-top: 2px solid var(--main-color-1);
+}
+
+.total-bayar{
+  padding: 3rem 3rem 0 3rem;
+  border-top: 2px solid var(--main-color-1);
+  margin: 0 0 0 0;
 }
